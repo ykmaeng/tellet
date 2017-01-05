@@ -1,0 +1,28 @@
+<tellet id="_apps">
+
+	<note> App Management </note>
+
+	<fun:before>
+		<auth:basic />
+	</fun:before>
+
+	<fun:GET id=''>
+		<app:get id='{{=id}}' />
+		<response content-type='application/json'>
+			{{:json val}}
+		</response>
+	</fun:GET>
+
+	<fun:PUT id='' body='{{=req.body}}'>
+		<app:put id='{{=id}}' body='{{=body}}'/>
+	</fun:PUT>
+
+	<fun:POST id='' body='{{=req.body}}' userdata=''>
+		<app:new id='{{=id}}' body='{{=body}}' userdata='{{=userdata}}' />
+	</fun:POST>
+
+	<fun:DELETE id=''>
+		<app:del id='{{=id}}' />
+	</fun:DELETE>
+
+</tellet>

@@ -1,0 +1,30 @@
+2014/11/10-16:01:31.441421 b3743000             Options.comparator: leveldb.InternalKeyComparator
+2014/11/10-16:01:31.441478 b3743000      Options.create_if_missing: 1
+2014/11/10-16:01:31.441487 b3743000        Options.error_if_exists: 0
+2014/11/10-16:01:31.441493 b3743000        Options.paranoid_checks: 0
+2014/11/10-16:01:31.441498 b3743000     Options.verify_compactions: 1
+2014/11/10-16:01:31.441503 b3743000                    Options.env: 0x7fbf91600590
+2014/11/10-16:01:31.441508 b3743000               Options.info_log: 0x7fbf9140f680
+2014/11/10-16:01:31.441513 b3743000      Options.write_buffer_size: 4219425
+2014/11/10-16:01:31.441518 b3743000         Options.max_open_files: 1000
+2014/11/10-16:01:31.441523 b3743000            Options.block_cache: 0x7fbf91839600
+2014/11/10-16:01:31.441528 b3743000             Options.block_size: 4096
+2014/11/10-16:01:31.441532 b3743000       Options.block_size_steps: 16
+2014/11/10-16:01:31.441537 b3743000 Options.block_restart_interval: 16
+2014/11/10-16:01:31.441542 b3743000            Options.compression: 1
+2014/11/10-16:01:31.441547 b3743000          Options.filter_policy: leveldb.BuiltinBloomFilter2
+2014/11/10-16:01:31.441552 b3743000              Options.is_repair: false
+2014/11/10-16:01:31.441557 b3743000         Options.is_internal_db: true
+2014/11/10-16:01:31.441562 b3743000      Options.total_leveldb_mem: 365322240
+2014/11/10-16:01:31.441567 b3743000  Options.block_cache_threshold: 33554432
+2014/11/10-16:01:31.441572 b3743000  Options.limited_developer_mem: false
+2014/11/10-16:01:31.441577 b3743000              Options.mmap_size: 0
+2014/11/10-16:01:31.441581 b3743000       Options.delete_threshold: 1000
+2014/11/10-16:01:31.441586 b3743000       Options.fadvise_willneed: false
+2014/11/10-16:01:31.441591 b3743000      Options.tiered_slow_level: 0
+2014/11/10-16:01:31.441596 b3743000     Options.tiered_fast_prefix: priv/riak_core/cluster_meta/trees
+2014/11/10-16:01:31.441601 b3743000     Options.tiered_slow_prefix: priv/riak_core/cluster_meta/trees
+2014/11/10-16:01:31.441606 b3743000                         crc32c: hardware
+2014/11/10-16:01:31.441611 b3743000                File cache size: 57461040
+2014/11/10-16:01:31.441616 b3743000               Block cache size: 59558192
+2014/11/10-16:01:31.445003 b3743000 Delete type=3 #1

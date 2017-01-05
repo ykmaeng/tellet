@@ -1,0 +1,7 @@
+<tellet> 
+
+	<note> App Tester </note>
+
+	<use app='{{=req.body}}'/>
+
+</tellet>
